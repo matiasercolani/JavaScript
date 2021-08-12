@@ -1,0 +1,471 @@
+/* Recursividad */
+/* body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+
+.texto{
+    margin: 20px;
+} */
+
+
+
+
+
+
+
+
+
+/* Apis  Reloj*/
+/* .reloj{
+    background: linear-gradient(#111, #666);
+    border: 2px solid #000;
+    display: inline-flex;
+    border-radius: 2px;
+}
+
+
+.reloj div { 
+    color: #fff;
+    padding: 5px 7px;
+    font-size: 20px;
+    font-family: monospace;
+} */
+
+
+
+
+
+
+
+
+/* Ejemplo Localstorage Idiomas */
+/* body {
+    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.modal{
+    background: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+
+button{
+    padding: 9px;
+    border:none;
+    margin: 6px;
+    background: #ddd;
+}
+
+button:hover{
+    background-color: #ccc;
+
+}
+
+
+.modal-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    opacity: 0;
+    animation: aparecer 1s forwards;
+}
+
+
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+} */
+
+
+
+
+
+
+
+/*  Drag & Drop*/
+
+/* .cuadrado{
+    padding: 100px;
+    background: #ccc;
+    margin: 50px;
+    outline: 6px dashed #aaa;
+}
+
+
+.circulo{
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    background: #f00;
+    display: inline-block;
+} */
+
+
+
+
+
+
+/*  Drag & Drop Ejemplo*/
+
+/* .texturas{
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    user-select: none;
+}
+
+
+.texturas div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+}
+
+
+.texturas div:active{
+    opacity: 0.55;
+}
+
+
+.textura1{
+    background: url("APIs/DragAndDrop/textura1.png");
+}
+.textura2{
+    background: url("APIs/DragAndDrop/textura2.png");
+}
+.textura3{
+    background: url("APIs/DragAndDrop/textura3.jpg");
+}
+
+.zona{
+    margin: 10px;
+    background: #ddd;
+    height: 100px;
+} */
+
+
+
+
+/* ReadFile */
+
+/* img{
+    width: 300px;
+} */
+
+
+
+
+
+
+
+
+/* Galeria ReadFile*/
+/* 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resultado{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 100px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* FileReader + Drag & Drop */
+
+
+
+ /* body {
+    color: #222;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.zona-arrastre, .barra-de-carga{
+    padding: 60px 20px;
+    border: 4px dashed #888;
+    max-width: 500px;
+    color: #888;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.barra-de-carga{
+    position: absolute;
+    width: 0%;
+    left: 0;
+    right: 0;
+    margin: top;
+    padding: 0;
+    z-index: 0;
+    border: none;
+    background:#def;
+    transition: width 0.3s, background 0.5s;
+}
+
+.resultado{
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    margin: auto;
+}
+
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* IndexedDB + Drag & Drop */
+
+/* .nombres{
+    display: grid;
+    grid-template-columns: minmax(100px,300px)1fr;
+}
+
+.add-nombres{
+    margin-top: 40px;
+}
+
+
+#nombre{
+    padding: 4px 8px;
+}
+
+#add{
+    padding: 4px 8px;
+} */
+
+
+
+
+
+
+
+
+
+
+/* matchMedia */
+
+
+/* matchMedia() */
+/* body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: #48e;
+    font-size: 40px;
+    color: #fff;    
+}
+
+.caja span, .caja-responsive span{
+    margin: auto;
+}
+
+.responsive-caja{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background: #333;
+    color: #fff; 
+} */
+
+
+
+
+
+/* Intersection Observer */
+/* .caja{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    background: #48e;
+    margin:  20px auto;
+    color: #fff;
+    font-size: 26px;
+    border: 4px dashed #248;
+}
+
+.caja span{
+    margin: auto;
+}
+
+.caja:nth-child(2){
+    background: #e48;
+    border: 4px dashed #824;
+}
+
+
+.caja:nth-child(3){
+    background: #4e8;
+    border: 4px dashed #284;
+}
+
+.caja:nth-child(4){
+    background: #666;
+    border: 4px dashed #444;
+} */
+
+
+
+/* Lazy load*/
+
+/* body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body, h3, div, p, input{
+    margin: 0;
+    padding: 0;
+} */
+
+/* .publicacion{
+    text-align: left;
+    margin: 20px;
+    color: #555;
+    animation: aparecer 1s forwards 0.5;
+    
+} */
+
+/* .publicacion p {
+    padding: 10px 20px;
+    border-left: 2px solid #48e;
+}
+
+.publicacion h3{
+    color: #48e;
+    border-bottom: 2px solid #48e;
+    display: inline-block;
+}
+
+.comentarios {
+    display: flex;
+}
+
+.comentarios input{
+    padding: 6px 10px;
+    border: none;
+}
+
+
+.comentarios .comentario{
+    flex-grow: 1;
+}
+
+.comentarios .enviar{
+    min-width: 60px;
+    padding: 6px 10px;
+}
+
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 2;
+    }
+} */
+
+
+
+
+
+
+
+/* Canvas */
+/* canvas{
+    margin: 40px;
+    border: 1px solid #000;
+} */
+
+
+
+
+
+
+/* Paint Canvas */
+body, div{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #ededed;
+}
+
+canvas{
+    border: 1px solid #000;
+}
+
+
+.editor{
+    background: #fff;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+

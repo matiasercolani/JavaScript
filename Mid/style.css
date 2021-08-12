@@ -1,0 +1,22 @@
+body{
+    /*  color:  #222; */
+    font-family: sans-serif;
+}
+
+.contenedor{
+    background-color:red;
+    padding: 50px;
+}
+
+.contenedor2{
+    background-color:blue;
+    padding: 30px;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: #ccc;
+}
