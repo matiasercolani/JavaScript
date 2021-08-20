@@ -1,5 +1,5 @@
 //+ map
-//* Sirve para recorrer arrays de fprma mas sencilla. No modfica el array original.
+//* Sirve para recorrer arrays de forma mas sencilla. No modfica el array original, crea uno nuevo.
 
 
 

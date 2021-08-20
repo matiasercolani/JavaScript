@@ -1,3 +1,7 @@
+//+ Variables - let y const funcionan dentro del scope donde fueron declarados y no fuera.
+
+//* const puede ser modificado si es un objeto o un array
+
 // Tipos de datos
 cadena = 'cadena de texto o string';
 numero = 10;

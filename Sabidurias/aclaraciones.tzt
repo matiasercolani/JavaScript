@@ -1,0 +1,9 @@
+JavaScript
+
+-   el motor de JavaScript es sincrono
+
+-   Por lo tanto tengamos siempre en cuenta que el motor de JavaScript siempre es sincrono y todas las peticiones 
+    que consideremos asincronas se hacen a traves del pool de Thread de WebAPI que es algo externo.
+    Este al terminar nos devolverá un resultado.
+
+
